@@ -1,3 +1,4 @@
+/* ページ全体の設定 */
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
@@ -61,6 +62,7 @@ button:hover {
     margin-top: 20px;
 }
 
+/* メモのスタイル */
 .note {
     background: #333;
     padding: 10px;
@@ -68,16 +70,20 @@ button:hover {
     border-radius: 5px;
     position: relative;
     color: #e0e0e0;
+    display: flex;
+    flex-direction: column; /* 子要素を縦に並べる */
 }
 
+/* 消去ボタンのスタイル */
 .deleteBtn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    align-self: flex-end; /* ボタンを右下に配置 */
+    margin-top: 10px;
     background: #d32f2f;
     border: none;
     color: white;
     cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
 }
 
 .deleteBtn:hover {
