@@ -76,14 +76,14 @@ button:hover {
 
 /* 消去ボタンのスタイル */
 .deleteBtn {
-    align-self: flex-end; /* ボタンを右下に配置 */
-    margin-top: 10px;
+    margin-top: 15px;
     background: #d32f2f;
     border: none;
     color: white;
     cursor: pointer;
     padding: 5px 10px;
     border-radius: 3px;
+    align-self: flex-end; /* ボタンを右下に配置 */
 }
 
 .deleteBtn:hover {
