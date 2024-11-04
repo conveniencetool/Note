@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="sidebar">
         <h1>Note</h1>
         <textarea id="noteInput" placeholder="メモを入力..."></textarea>
         <button id="addNoteBtn">追加</button>
-        <div id="notesContainer"></div> <!-- メモの表示用 -->
+    </div>
+    <div class="content">
+        <div id="notesContainer" class="notes-container"></div> <!-- メモの表示用 -->
     </div>
     <script src="script.js"></script>
 </body>
