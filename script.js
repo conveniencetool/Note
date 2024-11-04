@@ -30,5 +30,5 @@ function addNoteToDOM(noteText) {
 
     // メモに削除ボタンを追加し、DOMに挿入
     noteDiv.appendChild(deleteBtn);
-    notesContainer.appendChild(noteDiv); // メモを下に追加
+    notesContainer.appendChild(noteDiv); // メモを追加
 }
