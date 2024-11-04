@@ -25,5 +25,5 @@ function addNoteToDOM(noteText) {
     };
 
     noteDiv.appendChild(deleteBtn);
-    notesContainer.appendChild(noteDiv);
+    notesContainer.insertBefore(noteDiv, notesContainer.firstChild); // 上に追加する代わりに下に追加
 }
